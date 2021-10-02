@@ -31,7 +31,7 @@ class mw extends Module{
 
    
     val clk = WireInit(clock.asUInt()(0))
-    a.io.clk0 := ~clk0
+    a.io.clk0 := ~clk
     a.io.csb0:= io.csb0
     a.io.web0:=io.web0
     a.io.addr0:=io.addr0
