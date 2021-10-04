@@ -1,8 +1,8 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/usman/Documents/Blackbox/src/main/scala/practice/Adder.scala:20:7: Generated class practice.Adder differs only in case from practice.adder.[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/almas/Blackbox/src/main/scala/practice/Adder.scala:20:7: Generated class practice.Adder differs only in case from practice.adder.[0m
 [0m[[0m[33mwarn[0m] [0m[0m  Such classes will overwrite one another on case-insensitive filesystems.[0m
 [0m[[0m[33mwarn[0m] [0m[0mclass Adder extends Module{[0m
 [0m[[0m[33mwarn[0m] [0m[0m      ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/usman/Documents/Blackbox/src/main/scala/practice/Counter.scala:21:7: Generated class practice.Counter differs only in case from practice.counter.[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/almas/Blackbox/src/main/scala/practice/Counter.scala:21:7: Generated class practice.Counter differs only in case from practice.counter.[0m
 [0m[[0m[33mwarn[0m] [0m[0m  Such classes will overwrite one another on case-insensitive filesystems.[0m
 [0m[[0m[33mwarn[0m] [0m[0mclass Counter extends Module{[0m
 [0m[[0m[33mwarn[0m] [0m[0m      ^[0m

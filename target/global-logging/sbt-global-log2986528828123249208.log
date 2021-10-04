@@ -1,0 +1,38 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly practice.mwTests -- -DwriteVcd=1, Some(0bb4b7f9-f2ab-4c37-9083-a110e3b0ffc5), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources to /home/almas/Blackbox/target/scala-2.12/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/almas/Blackbox/src/main/scala/practice/Adder.scala:20:7: Generated class practice.Adder differs only in case from practice.adder.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  Such classes will overwrite one another on case-insensitive filesystems.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass Adder extends Module{[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/almas/Blackbox/src/main/scala/practice/Counter.scala:21:7: Generated class practice.Counter differs only in case from practice.counter.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  Such classes will overwrite one another on case-insensitive filesystems.[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass Counter extends Module{[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /home/almas/Blackbox/target/scala-2.12/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mmwTests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- mw *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  chiseltest.legacy.backends.verilator.TestApplicationException: test application exit - exit code 134[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.legacy.backends.verilator.SimApiInterface.throwExceptionIfDead(SimApiInterface.scala:126)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.legacy.backends.verilator.SimApiInterface.mwhile(SimApiInterface.scala:140)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.legacy.backends.verilator.SimApiInterface.finish(SimApiInterface.scala:362)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.legacy.backends.verilator.VerilatorBackend.run(VerilatorBackend.scala:250)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.Context$.$anonfun$run$1(Testers2.scala:158)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.Context$.run(Testers2.scala:158)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.ChiselScalatestTester.chiseltest$ChiselScalatestTester$$runTest(ChiselScalatestTester.scala:71)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.ChiselScalatestTester$TestBuilder.apply(ChiselScalatestTester.scala:33)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 6 seconds, 925 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	practice.mwTests[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 22 s, completed Oct 4, 2021, 10:01:04 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

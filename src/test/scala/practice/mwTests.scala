@@ -15,7 +15,7 @@ class mwTests extends FreeSpec with ChiselScalatestTester {
   "mw" in {
     test(new mw()).withAnnotations(Seq(VerilatorBackendAnnotation)) { c =>
       c.io.csb0.poke(0.B)
-      //c.io.web0.poke(0.B)
+      c.io.web0.poke(1.B)
       c.io.addr0.poke(3.U)
       //c.io.din0.poke(2.U)
 

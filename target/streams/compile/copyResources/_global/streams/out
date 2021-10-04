@@ -1,4 +1,4 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/usman/Documents/Blackbox/src/main/resources/counter.v,/home/usman/Documents/Blackbox/target/scala-2.12/classes/counter.v)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/usman/Documents/Blackbox/src/main/resources/adder.v,/home/usman/Documents/Blackbox/target/scala-2.12/classes/adder.v)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/home/usman/Documents/Blackbox/src/main/resources/sram_32_128_freepdk45.v,/home/usman/Documents/Blackbox/target/scala-2.12/classes/sram_32_128_freepdk45.v)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/almas/Blackbox/src/main/resources/counter.v,/home/almas/Blackbox/target/scala-2.12/classes/counter.v)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/almas/Blackbox/src/main/resources/sram_32_128_freepdk45.v,/home/almas/Blackbox/target/scala-2.12/classes/sram_32_128_freepdk45.v)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/almas/Blackbox/src/main/resources/adder.v,/home/almas/Blackbox/target/scala-2.12/classes/adder.v)[0m

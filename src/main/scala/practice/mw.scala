@@ -6,7 +6,7 @@ import chisel3.experimental._
 import chisel3.util.experimental._
 
 class IOm extends Bundle {
-  val clk0 = Input(Clock())
+  val clk0 = Input(Bool())
   val csb0 = Input(Bool())
   val web0 = Input(Bool())
   val addr0 = Input(UInt(7.W))
@@ -21,7 +21,7 @@ class sram_32_128_freepdk45 extends BlackBox with HasBlackBoxResource {
 class mw extends Module {
 
   val io = IO(new Bundle {
-    val clk0 = Input(Clock())
+    //val clk0 = Input(Clock())
     val csb0 = Input(Bool())
     val web0 = Input(Bool())
     val addr0 = Input(UInt(7.W))
@@ -31,7 +31,7 @@ class mw extends Module {
   val a = Module(new sram_32_128_freepdk45)
 
   val clk = WireInit(clock.asUInt()(0))
-  a.io.clk0 := io.clk0
+  a.io.clk0 := ~clk
   a.io.csb0 := io.csb0
   a.io.web0 := io.web0
   a.io.addr0 := io.addr0
