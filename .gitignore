@@ -1,0 +1,7 @@
+# ~/.gitignore
+.metals/
+.bloop/
+.ammonite/
+metals.sbt
+test_run_dir/*
+.vscode/

@@ -1,80 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="almas-Latitude-E6330" name="practice.mwTests" tests="1" errors="0" failures="1" skipped="0" time="2.79" timestamp="2021-10-02T16:23:18">
+<testsuite hostname="pop-os" name="practice.mwTests" tests="1" errors="0" failures="0" skipped="0" time="7.024" timestamp="2021-10-03T16:30:20">
                      <properties>
-      <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://ubuntu.com/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/><property name="sun.java.command" value="/home/almas/.cache/sbt/boot/sbt-launch/1.5.5/sbt-launch-1.5.5.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2021-04-20"/><property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
-"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/><property name="user.name" value="almas"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/almas/.cache/JNA/temp/jna11113848821466632788.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="11.0.11"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.vendor" value="Ubuntu"/><property name="scala.ext.dirs" value="/home/almas/.sbt/1.0/java9-rt-ext-ubuntu_11_0_11"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="gnome"/><property name="java.class.path" value="/home/almas/.cache/sbt/boot/sbt-launch/1.5.5/sbt-launch-1.5.5.jar"/><property name="java.vm.vendor" value="Ubuntu"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Asia/Karachi"/><property name="os.name" value="Linux"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/almas"/><property name="user.language" value="en"/><property name="swoval.tmpdir" value="/home/almas/.sbt/1.0"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="5.11.0-34-generic"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/><property name="user.dir" value="/home/almas/BlackBocx-"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/><property name="java.class.version" value="55.0"/>
+      <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://adoptium.net/"/><property name="sun.boot.library.path" value="/opt/jdk-11/lib"/><property name="sun.java.command" value="/home/usman/.cache/sbt/boot/sbt-launch/1.5.5/sbt-launch-1.5.5.jar testOnly practice.mwTests -- -DwriteVcd=1"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2021-07-20"/><property name="java.home" value="/opt/jdk-11"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.12+7"/><property name="user.name" value="usman"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/usman/.cache/JNA/temp/jna3903118930986179219.tmp"/><property name="java.vendor.version" value="Temurin-11.0.12+7"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="11.0.12"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.vendor" value="Eclipse Foundation"/><property name="scala.ext.dirs" value="/home/usman/.sbt/1.0/java9-rt-ext-eclipse_foundation_11_0_12"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="gnome"/><property name="java.class.path" value="/home/usman/.cache/sbt/boot/sbt-launch/1.5.5/sbt-launch-1.5.5.jar"/><property name="java.vm.vendor" value="Eclipse Foundation"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Asia/Karachi"/><property name="os.name" value="Linux"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/usman"/><property name="user.language" value="en"/><property name="swoval.tmpdir" value="/home/usman/.sbt/1.0"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="5.13.0-7614-generic"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib32:/lib/i386-linux-gnu:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/><property name="user.dir" value="/home/usman/Documents/Blackbox"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode"/><property name="java.vm.version" value="11.0.12+7"/><property name="java.class.version" value="55.0"/>
     </properties>
-                     <testcase classname="practice.mwTests" name="mw" time="2.79">
-                                                 <failure message="assertion failed: verilator command failed on circuit mw in work dir test_run_dir/mw" type="java.lang.AssertionError">java.lang.AssertionError: assertion failed: verilator command failed on circuit mw in work dir test_run_dir/mw
-	at scala.Predef$.assert(Predef.scala:223)
-	at chisel3.assert$.apply(Assert.scala:70)
-	at chiseltest.legacy.backends.verilator.VerilatorExecutive$.start(VerilatorExecutive.scala:111)
-	at chiseltest.defaults.package$.createDefaultTester(defaults.scala:24)
-	at chiseltest.ChiselScalatestTester$TestBuilder.apply(ChiselScalatestTester.scala:33)
-	at practice.mwTests.$anonfun$new$1(mwTests.scala:18)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
-	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
-	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
-	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
-	at org.scalatest.Transformer.apply(Transformer.scala:22)
-	at org.scalatest.Transformer.apply(Transformer.scala:20)
-	at org.scalatest.FreeSpecLike$$anon$1.apply(FreeSpecLike.scala:405)
-	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
-	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
-	at practice.mwTests.chiseltest$ChiselScalatestTester$$super$withFixture(mwTests.scala:15)
-	at chiseltest.ChiselScalatestTester.$anonfun$withFixture$1(ChiselScalatestTester.scala:50)
-	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)
-	at chiseltest.ChiselScalatestTester.withFixture(ChiselScalatestTester.scala:50)
-	at chiseltest.ChiselScalatestTester.withFixture$(ChiselScalatestTester.scala:47)
-	at practice.mwTests.withFixture(mwTests.scala:15)
-	at org.scalatest.FreeSpecLike.invokeWithFixture$1(FreeSpecLike.scala:403)
-	at org.scalatest.FreeSpecLike.$anonfun$runTest$1(FreeSpecLike.scala:415)
-	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:286)
-	at org.scalatest.FreeSpecLike.runTest(FreeSpecLike.scala:415)
-	at org.scalatest.FreeSpecLike.runTest$(FreeSpecLike.scala:397)
-	at org.scalatest.FreeSpec.runTest(FreeSpec.scala:1739)
-	at org.scalatest.FreeSpecLike.$anonfun$runTests$1(FreeSpecLike.scala:474)
-	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:393)
-	at scala.collection.immutable.List.foreach(List.scala:431)
-	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:381)
-	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:376)
-	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:458)
-	at org.scalatest.FreeSpecLike.runTests(FreeSpecLike.scala:474)
-	at org.scalatest.FreeSpecLike.runTests$(FreeSpecLike.scala:473)
-	at org.scalatest.FreeSpec.runTests(FreeSpec.scala:1739)
-	at org.scalatest.Suite.run(Suite.scala:1124)
-	at org.scalatest.Suite.run$(Suite.scala:1106)
-	at org.scalatest.FreeSpec.org$scalatest$FreeSpecLike$$super$run(FreeSpec.scala:1739)
-	at org.scalatest.FreeSpecLike.$anonfun$run$1(FreeSpecLike.scala:518)
-	at org.scalatest.SuperEngine.runImpl(Engine.scala:518)
-	at org.scalatest.FreeSpecLike.run(FreeSpecLike.scala:518)
-	at org.scalatest.FreeSpecLike.run$(FreeSpecLike.scala:517)
-	at org.scalatest.FreeSpec.run(FreeSpec.scala:1739)
-	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:317)
-	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:510)
-	at sbt.TestRunner.runTest$1(TestFramework.scala:139)
-	at sbt.TestRunner.run(TestFramework.scala:154)
-	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:317)
-	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:277)
-	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)
-	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)
-	at sbt.TestFunction.apply(TestFramework.scala:329)
-	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:422)
-	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:46)
-	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
-	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
-	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
-	at sbt.Execute.work(Execute.scala:291)
-	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
-	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
-	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-</failure>
+                     <testcase classname="practice.mwTests" name="mw" time="7.024">
+                                                 
                                                </testcase>
                      <system-out><![CDATA[]]></system-out>
                      <system-err><![CDATA[]]></system-err>
