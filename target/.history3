@@ -1,1 +1,3 @@
 1633323642273:testOnly practice.mwTests -- -DwriteVcd=1
+1633332349994:testOnly practice.SRAMTests -- -DwriteVcd=1
+1633332400873:exit

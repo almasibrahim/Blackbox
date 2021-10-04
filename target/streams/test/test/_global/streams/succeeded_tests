@@ -1,6 +1,7 @@
 #Successful Tests
-#Mon Oct 04 10:05:44 PKT 2021
-practice.CounterTests=1633258274140
+#Mon Oct 04 12:26:11 PKT 2021
 gcd.GCDSpec=1633258273261
-practice.AdderTests=1633258274119
 practice.mwTests=1633323944311
+practice.AdderTests=1633258274119
+practice.SRAMTests=1633332371440
+practice.CounterTests=1633258274140
