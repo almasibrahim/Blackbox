@@ -28,6 +28,7 @@ class mw extends Module {
     val addr0 = Input(UInt(7.W))
     val din0 = Input(UInt(32.W))
     val dout0 = Output(UInt(32.W))
+    
   })
   val a = Module(new sram_top)
 

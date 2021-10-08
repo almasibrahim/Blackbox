@@ -58,6 +58,7 @@ initial begin
   end
 end
 
+
   // Memory Write Block Port 0
   // Write Operation : When web0 = 0, csb0 = 0
   always @ (negedge clk0)
