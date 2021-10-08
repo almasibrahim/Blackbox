@@ -18,7 +18,7 @@ module sram_32_128_freepdk45(
   parameter DELAY = 3 ;
   parameter VERBOSE = 1 ; //Set to 0 to only display warnings
   parameter T_HOLD = 1 ; //Delay to hold dout value after posedge. Value is arbitrary
-  parameter IFILE = "/home/almas/Blackbox/program" ;
+  parameter IFILE = "/home/usman/Documents/Blackbox/program" ;
 
 `ifdef USE_POWER_PINS
     inout vdd;
@@ -44,7 +44,7 @@ module sram_32_128_freepdk45(
     web0_reg = web0;
     addr0_reg = addr0;
     din0_reg = din0;
-    dout0 <= 32'bx;
+    dout0 = 32'bx;
     if ( !csb0_reg && web0_reg && VERBOSE ) 
       $display($time," Reading %m addr0=%b dout0=%b",addr0_reg,mem[addr0_reg]);
     if ( !csb0_reg && !web0_reg && VERBOSE )
@@ -72,7 +72,7 @@ end
   always @ (negedge clk0)
   begin : MEM_READ0
     if (!csb0_reg && web0_reg)
-       dout0 <= mem[addr0_reg];
+       dout0 = mem[addr0_reg];
   end
 
 endmodule
